@@ -6,7 +6,7 @@ var userName=prompt('what is your name?  ');
 
 if ( important == 1 ){ alert('Amazing')
 }
- else {" Thats amazing Here you will learn how to draw yourfirst website "
+ else {" Thats amazing Here you will learn how to draw your first website "
  }
 var Wireframing = prompt("Are you intrested to learn about wireframing?");
   
@@ -17,11 +17,10 @@ if ( Wireframing == "yes" ) {
     document.write("<h4>welcome "+userName+"</h4>");
     }
 
-var answer = ''; 
-while (answer !== '1234') 
-if (answer == '1234'){
-  answer = prompt('Enter your password  ');}
-  else{ answer = prompt('Enter your password  (1234)');}
+var answer = prompt('Enter your password  ');
+while (answer != '1234') {
+ answer = prompt('Enter your password  (1234)');
+}
 
 
 
