@@ -1,0 +1,49 @@
+header img {
+    width: 100px;
+}
+
+header nav {
+    float: right;
+  }
+  
+  header nav ul {
+    list-style: none;
+  }
+  
+  header nav ul li {
+    float: right;
+    padding: 10px;
+  }
+
+main h1 {
+    text-align: center;
+    background-color: gold;
+    color: white;
+    
+}
+
+
+
+main img {
+    width: 300px;
+ 
+}
+
+
+
+main p {
+    text-align: right;
+  
+  
+}
+
+
+
+
+footer{ 
+
+    text-align: center;
+    background-color: blueviolet;
+    color: black;
+   
+}
